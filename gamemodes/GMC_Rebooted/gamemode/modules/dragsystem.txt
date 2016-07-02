@@ -1,0 +1,63 @@
+Credits to Overv.
+To be used as a guide, not copy.
+Found here; http://www.facepunch.com/threads/1089200-What-are-you-working-on-V5-Nothing-to-see-here-folks?p=29945928&viewfull=1#post29945928
+
+// Dragging helper functions
+local onPressed = function( self, mc )
+    if ( mc == MOUSE_LEFT ) then
+        self.ox = self.x - gui.MouseX()
+        self.oy = self.y - gui.MouseY()
+        self.dragging = true
+    end
+end
+local onReleased = function( self )
+    self.dragging = false
+end
+local onThink = function( self )
+    if ( self.dragging ) then
+        self:SetPos(
+            math.Clamp( gui.MouseX() + self.ox, 0, self:GetParent():GetWide() - self:GetWide() ),
+            math.Clamp( gui.MouseY() + self.oy, 0, self:GetParent():GetTall() - self:GetTall() )
+        )
+         
+        // Simple positioning without making sure the panel doesn't leave its container.
+        // self:SetPos( gui.MouseX() + self.ox, gui.MouseY() + self.oy )
+    end
+end
+ 
+// Example
+local frame = vgui.Create( "DFrame" )
+frame:SetPos( 300, 300 )
+frame:SetSize( 400, 300 )
+frame:SetTitle( "Drag sample" )
+frame:MakePopup()
+ 
+// Add a button with the drag functions.
+local button = vgui.Create( "DButton", frame )
+button:SetPos( 30, 40 )
+button:SetText( "Drag me" )
+button.OnMousePressed = onPressed
+button.OnMouseReleased = onReleased
+button.Think = onThink
+ 
+// Add a property sheet container, again with the drag functions.
+local sheet = vgui.Create( "DPropertySheet", frame )
+sheet:SetPos( 80, 40 )
+sheet:SetSize( 200, 200 )
+sheet.OnMousePressed = onPressed
+sheet.OnMouseReleased = onReleased
+sheet.Think = onThink
+ 
+// And add a button inside a property sheet that can also be dragged.
+local container = vgui.Create( "DPanel" )
+local button2 = vgui.Create( "DButton", container )
+button2:SetPos( 0, 0 )
+button2:SetSize( 80, 30 )
+button2:SetText( "Drag me too!" )
+button2.OnMousePressed = onPressed
+button2.OnMouseReleased = onReleased
+button2.Think = onThink
+sheet:AddSheet( "Drag me", container, "gui/silkicons/emoticon_smile", false, false, "Drag using the dark grey border." )
+ 
+// See how easy it is to add draggability to controls simply by assigning three functions?
+// Make sure you understand how it works.

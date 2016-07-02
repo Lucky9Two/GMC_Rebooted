@@ -1,0 +1,15 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\AoC_Weapon/handle"
+	"$bumpmap"   "models\AoC_Weapon/handle_nm"
+        "$bumpscale" 1120
+
+	"$phong" "1"
+
+	"$phongexponent" "5"
+	"$phongboost" "0.5"
+	"$halflambert" "1"	
+	"$phongfresnelranges"	"[0.02 0.2 1]"
+	"$phongexponenttexture" "models/AoC_Weapon/handle" 
+	"$phongalbedotint" "1"
+}

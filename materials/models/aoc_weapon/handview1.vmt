@@ -1,0 +1,13 @@
+"vertexlitgeneric"
+{
+	"$baseTexture" "models\aoc_weapon/handview1"
+	"$bumpmap" "models\aoc_weapon/handview_nm1"
+	"$surfaceprop" "metal"
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1
+	"$model" 1
+	"$phong" "1"
+	"$phongexponent" "30"
+	"$phongboost" "50"	
+	"$phongfresnelranges"	"[.1 1 3]"
+}

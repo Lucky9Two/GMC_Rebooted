@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\AoC_Weapons/v_knightsword"
+	//"$bumpmap" "models\AoC_Weapons/v_knightsword_bump"
+	"$normalmap" "models\AoC_Weapons/v_knightsword_norm"
+	"$surfaceprop" "metal"
+	"%keywords" "valandil"
+}

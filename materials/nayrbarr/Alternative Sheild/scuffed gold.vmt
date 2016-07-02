@@ -1,0 +1,7 @@
+"vertexlitGeneric"
+{
+	"$basetexture" "nayrbarr/Alternative Sheild/scuffed gold"
+	"$surfaceprop" "metal"
+	//"$bumpmap" "nayrbarr/alternative shield/scuffed gold - normal"
+	//"$phong"     "1"
+}

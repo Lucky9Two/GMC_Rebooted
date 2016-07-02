@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/midage/items/ore/tin_d"
+	"$bumpmap" "models/midage/items/ore/copper_n"
+
+}

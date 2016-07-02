@@ -1,0 +1,7 @@
+"vertexlitGeneric"
+{
+	"$basetexture" "nayrbarr/Round Shield/Rivits"
+	"$surfaceprop" "metal"
+	//"$bumpmap" "nayrbarr/round shield/Rivits - normal"
+	//"$phong"     "1"
+}

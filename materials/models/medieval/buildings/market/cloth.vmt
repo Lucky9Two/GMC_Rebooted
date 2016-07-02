@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "models/medieval/buildings/market/cloth"
+	"$vertexalpha" 1
+}

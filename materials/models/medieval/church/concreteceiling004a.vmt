@@ -1,0 +1,7 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "concrete/concreteceiling004a"
+	"$surfaceprop" "concrete"
+	
+	"%keywords" "c17downtown,c17industrial"
+}

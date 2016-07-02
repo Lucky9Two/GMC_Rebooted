@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "mushroom/karpassieni"
+	"$bumpmap" "mushroom/karpassieni_normal"
+}

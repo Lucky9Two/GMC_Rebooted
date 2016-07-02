@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\aoc_weapons\/arrow"
+	"$bumpmap" "models\aoc_weapons\/"
+}

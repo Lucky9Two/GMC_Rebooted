@@ -1,0 +1,8 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "nature/dirtwall001a"
+	"$surfaceprop" "dirt"
+	"$bumpmap" "nature/dirtwall001a_normal"
+	//"$parallaxmap" "nature/dirtwall001a_height"
+	//"$parallaxmapscale" ".025"
+}

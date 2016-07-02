@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/midage/objects/vein/tin"
+	"$bumpmap" "models/midage/objects/vein/normals"
+	"$model" 1
+}

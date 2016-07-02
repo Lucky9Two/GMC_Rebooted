@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/gmstranded/props/lumber"
+	"$surfaceprop" "wood"
+	"$model" 1
+}

@@ -1,0 +1,7 @@
+"vertexlitGeneric"
+{
+	"$basetexture" "nayrbarr/Round Shield/Leather-dark brown"
+	"$surfaceprop" "metal"
+	//bumpmap" "nayrbarr/round shield/leather - dark brown - normal"
+	//"$phong"     "1"
+}

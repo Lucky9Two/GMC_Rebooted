@@ -1,0 +1,10 @@
+"vertexlitgeneric" {
+    "$basetexture" "mixerman3d\other\vinyl"
+    "$bumpmap" "mixerman3d\other\vinyl_normal"
+    "$normalmapalphaenvmapmask" 1
+    "$envmapcontrast" 0.20000
+    "$envmapsaturation" 0.20000
+    "$envmap" "env_cubemap"
+    "$envmaptint" "[ 0.3020 0.3020 0.3020 ]"
+    "$surfaceprop" "tile"
+}

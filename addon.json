@@ -1,0 +1,22 @@
+{
+	"title"		:	"GMod Civiliations: Rebooted",
+	"type"		:	"gamemode",
+	"ignore"	:
+	[
+		"*.psd*",
+		"*.svd*",
+		"*.vcproj",
+		"*.svn*",
+		"*.txt*",
+		"*.dua*",
+		"*.ztmp*",
+		"*.jpg*",
+		"*.bmp*",
+		"*.vtf_bak*",
+		"*.tga*",
+		"*.imc2*",
+		"*.res*",
+		"*.otf*",
+		"*.svg*"
+	]
+}

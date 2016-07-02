@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\\aoc_weapon/arrow"
+	"$surfaceprop" "wood"
+	"$bumpmap" "models\\aoc_weapon/arrow_nm"
+	 $alphatest 1
+ 	"$nocull" 1
+	"$model" 1
+}

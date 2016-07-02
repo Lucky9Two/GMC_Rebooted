@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\AoC_Weapon/handview"
+	"$bumpmap"     "models\AoC_Weapon/handview_nm"
+	"$surfaceprop" "flesh"
+	"$phong" "1"
+	"$phongboost" "1.5"	
+	"$phongfresnelranges"	"[.1 .5 1]"
+	"$phongalbedotint" "1"							
+
+
+}
+

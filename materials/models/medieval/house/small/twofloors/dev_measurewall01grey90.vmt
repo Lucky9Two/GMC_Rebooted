@@ -1,0 +1,5 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "customdev/dev_measurewall01grey90"
+	"$surfaceprop" "concrete"
+}

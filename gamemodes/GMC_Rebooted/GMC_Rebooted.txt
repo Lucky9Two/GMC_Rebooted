@@ -1,0 +1,13 @@
+"RandomStringHere"
+{
+	"base"			"base"
+	"title"			"GMod Civilizations: Rebooted"
+	"maps"			"^gmc_|rp_stingard"
+	"menusystem"	"1"
+	"workshopid"	""
+	
+	"settings"
+	{
+	
+	}
+}

@@ -1,0 +1,7 @@
+// envmaptint_fix
+"vertexlitgeneric"
+{
+	"$basetexture" "wood/woodstair002a"
+	"$surfaceprop" "wood"
+	"%keywords" "c17skyscraper"
+}

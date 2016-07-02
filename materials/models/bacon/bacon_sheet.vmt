@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\noobuss\bacon\/bacon_sheet"
+	"$bumpmap" "models\noobuss\bacon\/bacon_sheet_normal"
+}

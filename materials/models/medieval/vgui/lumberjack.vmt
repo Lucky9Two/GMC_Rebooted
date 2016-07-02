@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "models/medieval/vgui/lumberjack"
+	"$vertexalpha" 1
+}
